@@ -1,15 +1,1 @@
-/* --- CONFIGURAÇÕES GERAIS --- */
-:root {
-    --primary-color: #2e7d32; /* Verde Agro */
-    --secondary-color: #81c784; /* Verde Claro */
-    --dark-color: #212529; /* Grafite Escuro */
-    --light-color: #f8f9fa; /* Fundo Claro */
-    --accent-color: #f9a825; /* Detalhes em Amarelo/Ouro */
-    --text-color: #4a4a4a;
-    --transition: all 0.3s ease-in-out;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-
