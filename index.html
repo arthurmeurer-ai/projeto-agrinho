@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <i class="fa-solid fa-seedling"></i> Agro<span>Sustentável</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#midia">Galeria & Vídeos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produtividade no campo e a preservação do meio ambiente.</p>
+            <a href="#pilares" class="btn">Conheça Nossa Visão</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Nossos Pilares de Equilíbrio</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fa-solid fa-leaf card-icon"></i>
+                    <h3>Preservação Ativa</h3>
+                    <p>Manutenção de áreas de reserva legal e APPs, integrando a floresta nativa ao espaço produtivo de forma estratégica.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-chart-line card-icon"></i>
+                    <h3>Alta Produtividade</h3>
+                    <p>Otimização do uso do solo através do manejo correto, garantindo safras recordes sem a necessidade de novos desmatamentos.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-droplet card-icon"></i>
+                    <h3>Gestão de Recursos</h3>
+                    <p>Uso inteligente e circular da água, captação de chuva e transição para fontes de energia limpa e renovável no campo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="bg-light py-5">
+        <div class="container grid-2">
+            <div class="text-content">
+                <h2>Tecnologia a Serviço da Natureza</h2>
+                <p>A modernização do campo é a maior aliada da sustentabilidade. Através de sensores IoT, drones de monitoramento de precisão e inteligência artificial, conseguimos reduzir drasticamente o uso de defensivos agrícolas e fertilizantes.</p>
+                <p>A agricultura de precisão garante que cada centímetro de terra receba exatamente o que precisa, evitando desperdícios e protegendo o lençol freático.</p>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1560493450-b15b3cbae8d6?auto=format&fit=crop&w=600&q=80" alt="Drone sobrevoando plantação tecnológica">
+            </div>
+        </div>
+    </section>
+
+    <section id="midia" class="py-5">
+        <div class="container">
+            <h2 class="section-title">O Agro Sustentável em Ação</h2>
+            
+            <div class="video-container">
+                <video controls poster="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?auto=format&fit=crop&w=1200&q=80">
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-tractor-spraying-a-field-40576-large.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
+
+            <div class="grid-3 mt-4">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=400&q=80" alt="Plantação jovem com solo protegido">
+                    <div class="gallery-overlay">Manejo Direto na Palha</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=400&q=80" alt="Painéis solares em fazenda">
+                    <div class="gallery-overlay">Energia Solar no Campo</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=400&q=80" alt="Silos modernos de grãos">
+                    <div class="gallery-overlay">Armazenamento Eficiente</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="bg-dark text-light py-5">
+        <div class="container grid-2">
+            <div>
+                <h2>Junte-se à Revolução Verde</h2>
+                <p>Quer saber como transformar sua produção ou apoiar iniciativas de agricultura sustentável? Entre em contato conosco.</p>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-envelope"></i> contato@agrosustentavel.com</li>
+                    <li><i class="fa-solid fa-phone"></i> (11) 99999-9999</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Polo Tecnológico Rual - CP 123</li>
+                </ul>
+            </div>
+            <div>
+                <form id="contact-form">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu E-mail" required>
+                    <textarea placeholder="Sua Mensagem ou Dúvida" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-secondary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 AgroSustentável. Todos os direitos reservados. Produção com Consciência.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
